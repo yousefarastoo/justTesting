@@ -1,0 +1,50 @@
+tbody > tr>th:hover ,td:hover{
+background-color: rgb(218, 211, 211);
+border-radius: 20px;
+cursor: pointer;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  #previous,#next{
+    cursor: pointer;
+  }
+
+  .chose{
+    background-color: red !important;
+    color : white;
+    border-radius : 20px;
+  }
+
+  .today{
+    background-color: blue !important;
+    color: white;
+    border-radius: 20px
+  }
